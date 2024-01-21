@@ -1,47 +1,138 @@
 /* ########### FONTS ############ */
-
-
+@font-face {
+  font-family: "okine";
+  src: url("../assets/fonts/MADEOkineSansPERSONALUSE-Regular.otf");
+}
 /* ############ BODY ############  */
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    list-style: none;
-    min-width: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  min-width: 0;
 }
 
 body {
-    background-color: #FFFFFF;
-    font-family: Arial, Helvetica, sans-serif;
+  background-color: #2C2C2C;
+  font-family: "okine";
 }
 
 /* ########### HEADER ########### */
-
-
+/* ######### RESPONSIVE ######### */
+/* ### SMARTPHONE ### */
+/* ### TABLET ### */
+/* ### DESKTOP ### */
+/* ### BIG DESKTOP ### */
 /* ############ MAIN ############ */
+h1 {
+  color: #f2d357;
+  font-size: 36px;
+}
 
-
-/* ########### FOOTER ########### */
-
+p {
+  font-size: 22px;
+}
 
 /* ######### RESPONSIVE ######### */
 /* ### SMARTPHONE ### */
-@media (max-width: 576px) {
-
-}
-
 /* ### TABLET ### */
-@media (min-width: 577px) and (max-width: 768px) {
-
-}
-
 /* ### DESKTOP ### */
-@media (min-width: 769px) and (max-width: 1024px) {
-
-}
-
 /* ### BIG DESKTOP ### */
-@media (min-width: 1025px) {
-
+/* ### SECTION DRINK WATER ### */
+.drink-water {
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  color: #FFF;
 }
+.drink-water .dw-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.drink-water .dw-content .dw-titles {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.drink-water .dw-content .dw-bottle .dw-bottle-box {
+  height: 450px;
+  width: 275px;
+  border: #5E4B86 5px solid;
+  border-radius: 10px 10px 50px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+}
+.drink-water .dw-content .dw-bottle .dw-bottle-box .bw-bottle-re {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #382C50;
+}
+.drink-water .dw-content .dw-bottle .dw-bottle-box .bw-bottle-dr {
+  height: 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #5776F2;
+}
+.drink-water .dw-content .dw-drinks {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.drink-water .dw-content .dw-drinks .dw-drinks-bottles {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.drink-water .dw-content .dw-drinks .dw-drinks-bottles button {
+  cursor: pointer;
+  height: 100px;
+  width: 65px;
+  border: #5E4B86 3px solid;
+  border-radius: 10px 10px 20px 20px;
+  color: #FFF;
+  background-color: #382C50;
+  font-family: "okine";
+  transition: all 0.3s ease;
+}
+.drink-water .dw-content .dw-drinks .dw-drinks-bottles button:hover {
+  border: #F2D357 3px solid;
+}
+.drink-water .dw-content .dw-drinks .dw-drinks-bottles button:active {
+  transition: all 0s ease;
+  border: #978436 3px solid;
+}
+.drink-water .dw-content .dw-drinks .dw-drinks-bottles .dw-bottles-top {
+  display: flex;
+  justify-content: space-around;
+}
+.drink-water .dw-content .dw-drinks .dw-drinks-bottles .dw-bottles-bot {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* ######### RESPONSIVE ######### */
+/* ### SMARTPHONE ### */
+/* ### TABLET ### */
+/* ### DESKTOP ### */
+/* ### BIG DESKTOP ### */
+/* ########### FOOTER ########### */
+/* ######### RESPONSIVE ######### */
+/* ### SMARTPHONE ### */
+/* ### TABLET ### */
+/* ### DESKTOP ### */
+/* ### BIG DESKTOP ### */
+
+/*# sourceMappingURL=app.css.map */
