@@ -14,10 +14,10 @@
         .dw-titles
             display: flex
             flex-direction: column
-            gap: 25px
+            gap: 15px
         .dw-bottle
             .dw-bottle-box
-                height: 450px
+                height: 530px
                 width: 275px
                 border: #5E4B86 5px solid
                 border-radius: 10px 10px 50px 50px
@@ -25,6 +25,7 @@
                 flex-direction: column
                 justify-content: center
                 overflow: hidden
+                transition: all 0.5s ease
                 .bw-bottle-re
                     height: 100%
                     display: flex
@@ -32,6 +33,7 @@
                     justify-content: center
                     align-items: center
                     background-color: #382C50
+                    transition: all 0.5s ease
                 .bw-bottle-dr
                     height: 0%
                     display: flex
@@ -39,15 +41,16 @@
                     justify-content: center
                     align-items: center
                     background-color: #5776F2
+                    transition: all 0.5s ease
         .dw-drinks
             width: 800px
             display: flex
             flex-direction: column
-            gap: 25px
+            gap: 15px
             .dw-drinks-bottles
                 display: flex
                 flex-direction: column
-                gap: 15px
+                gap: 10px
                 button
                     cursor: pointer
                     height: 100px
